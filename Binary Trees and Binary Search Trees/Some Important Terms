@@ -1,0 +1,10 @@
+Binary Trees -> Binary Tree is defined as a tree data structure where each node has at most 2 children. 
+                Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
+								
+Root -> The topmost node in the tree is called the root.
+
+Interior Nodes -> Nodes with children are called interior nodes.
+
+Leaf Nodes -> Nodes without children are called leaf nodes.
+
+Ancestors -> The ancestor of a node in a binary tree is a node that is at the upper level of the given node.
