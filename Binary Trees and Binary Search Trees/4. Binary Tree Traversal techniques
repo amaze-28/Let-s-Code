@@ -1,0 +1,61 @@
+There are two types of Binary Tree traversal techniques :-
+
+1. DFS (Depth First Search) -> It is a depth wise traversal. It has 3 types :
+
+a) Inorder traversal (LEFT -> ROOT -> RIGHT)
+   Following are the steps required for the inorder traversal:
+   => Visit all the nodes in the left subtree
+   => Visit the root node
+   => Visit all the nodes in the right subtree
+   
+
+b) Preorder traversal (ROOT -> LEFT -> RIGHT)
+   Following are the steps required for the inorder traversal:
+   => First, visit the root node.
+   => Then, visit the left subtree.
+   => At last, visit the right subtree.
+   
+   
+c) Postorder traversal (LEFT -> RIGHT -> ROOT)
+   Following are the steps required for the inorder traversal:
+   => First, visit the left subtree.
+   => Then, visit the right subtree.
+   => At last, visit the root node.
+   
+   
+   
+2. BFS (Breadth First Search) -> It is a level wise traversal.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EXAMPLES :-
+
+        1
+     /     \ 
+    2       3
+   / \     / \
+  4   5   6   7
+  
+ DFS :-   
+ Inorder   -> 4 2 5 1 6 3 7
+ Preorder  -> 1 2 4 5 3 6 7
+ Postorder -> 4 5 2 6 7 3 1
+ 
+ BFS :-  1 2 3 4 5 6 7
+
+
+ 
+        1
+     /     \ 
+    2       3
+   / \     / \
+  4   5   6   7
+     /       / \  
+    8       9   10
+
+ DFS :-   
+ Inorder   -> 4 2 8 5 1 6 3 9 7 10
+ Preorder  -> 1 2 4 5 8 3 6 7 9 10
+ Postorder -> 4 8 5 2 6 9 10 7 3 1
+ 
+ BFS :-  1 2 3 4 5 6 7 8 9 10
+  
